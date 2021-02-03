@@ -1,14 +1,17 @@
 ﻿# Windows Virtual Desktop Automated Deployment
-This template will
-- Allow you to select either a Windows Server or Windows Client VM for deployment
-- Auto join your Active Directory Domain
-- Download the latest WVD Installer Agent, Bootloader and FSLogix software
-- Auto configure the new VM(s) to join your Host Pool
+ 
+<img src="https://www.hlb.hu/wp-content/themes/pixi/assets/images/logo.svg"/>
+
+Tartalmazza
+- Választható Windwos Server és Windows Client
+- Auto Domain csatlakozás
+- Ledölti és telepíti a WVD Agentet és Bootloadert
+- Hozzáadja a VM-et a Host-Poolhoz
 
 ----
 ----
 
-# Requirements:
+# Követelmények:
 
 **Permissions:**
 - Azure Active Directory Global Administrator
@@ -19,7 +22,6 @@ This template will
 - Create WVD Tenant
 - Create WVD HostPool
 - Create Active Directory domain for the new VM(s) to join
-- Create a central file share for WVD Profiles
 - Generate HostPool Regestration Token
 
 ----
@@ -27,7 +29,7 @@ This template will
 
 **New Session Host**
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHallenbeck-Github%2FWVDTemplates%2FWVD-NewHost%2FWVD-NewHost.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhallenbeck-github%2FWVD%2Fmain%2FTemplates%2FWVDTemplates%2FWVD-NewHost%2FWVD-NewHost.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHallenbeck-Github%2FWVDTemplates%2FWVD-NewHost%2FWVD-NewHost.json" target="_blank">
